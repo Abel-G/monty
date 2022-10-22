@@ -11,7 +11,7 @@ stack_t *temp2;
 int sum = 0;
 if (*stack && (*stack)->next)
 {
-emp2 = (*stack)->next;
+temp2 = (*stack)->next;
 sum = (*stack)->n + temp2->n;
 temp1 = *stack;
 *stack = (*stack)->next;
